@@ -1,0 +1,23 @@
+Código modificado de los archivos originales:
+
+HTML
+
+- footer.php: Comentada las dos líneas de los antiguos elementos del footer
+				<p class="pull-right"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">320press</a></p>
+				<p class="attribution">&copy; <?php bloginfo('name'); ?></p>
+- header.php: Añadido el minilogo
+
+CSS
+
+- style.css: 	- .navbar .brand --> /* font-weight: bold !important; */
+				- .minilogo {}
+				- .breadcrumb-trail { padding: 1px 1.086956521739%; display:none; }
+				- @font-face { font-family: Roboto; src: url("user-fonts/roboto/Roboto-Regular.ttf") format('truetype'); font-weight: normal; font-style: normal; }
+				- Añadida la "font-family: Roboto;" a content, sidebar-primary, menu-primary y footer.
+				- En menu-primary, modificado el atributo "font-size" a 1.5 em.
+				- En footer, cambiado "border-top" a 2px. Modificado el tamaño de letra a "font-size: 1.2em;"
+				- En site-description, cambiado "site-description" a 2px.
+				- Eliminados los bordes de la imagen de Code Ministers eliminador el atributo "border: 1px solid #e5e5e5;" de .hentry img.
+				- Añadido en site-description las lineas "border-bottom: 1px solid #e5e5e5; margin-bottom: 30px;" para incluir el borde gris en todas las paginas y no solo en la principal. De esta forma tambien se ha eliminado ".home site-description", que era el que se encargaba de hacer eso.
+
+JS
