@@ -44,8 +44,18 @@
 
 	<?php do_atomic( 'open_body' ); // origin_open_body ?>
 
+	<div id="social-icons">
+		<img src="wp-content/themes/origin/user-social-icons/twitter-icon.png" width="50" height="50" class="image" /> <br />
+		<img src="wp-content/themes/origin/user-social-icons/facebook-icon.png" width="50" height="50" class="image" /> <br />
+		<img src="wp-content/themes/origin/user-social-icons/google-icon.jpg" width="50" height="50" class="image" />
+	</div>
+
+	<div id="div-aux">
+		<p><!-- div usado para la correcta posicion de los elementos de la pagina --></p>
+	</div>
+
 	<div id="container">
-		
+
 		<div class="wrap">
 
 			<?php do_atomic( 'before_header' ); // origin_before_header ?>
@@ -63,7 +73,8 @@
 					<?php get_template_part( 'menu', 'primary' ); // Loads the menu-primary.php template. ?>
 
 					<?php hybrid_site_description(); ?>
-	
+
+
 					<?php do_atomic( 'header' ); // origin_header ?>
 	
 				<?php do_atomic( 'close_header' ); // origin_close_header ?>

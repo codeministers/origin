@@ -523,6 +523,18 @@ a:hover img { opacity: 0.85; }
 	position: relative;
 }
 .page-template-fullwidth #content { width: 100%; }
+#social-icons {
+	float:right;
+	padding-right: 8em;
+	margin-top: 7em;
+	
+}
+
+#div-aux {
+	float:left;
+	width: 15%;
+}
+
 #content {
 	float: left;
 	width: 68.08510638297872%;
@@ -539,6 +551,7 @@ a:hover img { opacity: 0.85; }
 	max-width: 940px;
 	margin: 0 auto;
 	position: relative;
+	display:inline-block;
 }
 #comments-template { clear: left; }
 #sidebar-subsidiary {

@@ -6,6 +6,7 @@ HTML
 				<p class="pull-right"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">320press</a></p>
 				<p class="attribution">&copy; <?php bloginfo('name'); ?></p>
 - header.php: Añadido el minilogo
+			  Añadido el div de "social-icons" al comienzo del archivo
 
 CSS
 
@@ -19,5 +20,8 @@ CSS
 				- En site-description, cambiado "site-description" a 2px.
 				- Eliminados los bordes de la imagen de Code Ministers eliminador el atributo "border: 1px solid #e5e5e5;" de .hentry img.
 				- Añadido en site-description las lineas "border-bottom: 1px solid #e5e5e5; margin-bottom: 30px;" para incluir el borde gris en todas las paginas y no solo en la principal. De esta forma tambien se ha eliminado ".home site-description", que era el que se encargaba de hacer eso.
+				- .wrap: display:inline-block; para que todo los elementos encuadren en condiciones (social-icons)
+				- #social-icons: añadido con sus caracteristicas para mostrarlo correctamente.
+				- #div-aux: div auxiliar para la correcta organización de los elementos dentro de la pagina. (Mirar el margen para el correcto funcionamiento)
 
 JS
