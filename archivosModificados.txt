@@ -5,8 +5,10 @@ HTML
 - footer.php: Comentada las dos líneas de los antiguos elementos del footer
 				<p class="pull-right"><a href="http://320press.com" id="credit320" title="By the dudes of 320press">320press</a></p>
 				<p class="attribution">&copy; <?php bloginfo('name'); ?></p>
+				Añadido los botones del idioma en el footer
 - header.php: Añadido el minilogo
 			  Añadido el div de "social-icons" al comienzo del archivo
+			  Añadido código javascript para elegir el idioma de la web (ejemplo, el cambio solo se aprecia en el about)
 
 CSS
 

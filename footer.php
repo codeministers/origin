@@ -33,6 +33,11 @@
 
 				<?php do_atomic( 'footer' ); // origin_footer ?>
 
+				<div id="language-buttons" style="float:right;">
+					<button id="button-english" onclick="showEnglish()">English</button>
+					<button id="button-spanish" onclick="showSpanish()">Spanish</button>
+				</div>
+
 			</div>
 
 			<?php do_atomic( 'close_footer' ); // origin_close_footer ?>

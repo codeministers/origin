@@ -40,13 +40,27 @@
 
 </head>
 
-<body class="<?php hybrid_body_class(); ?>">
+<!-- Javascript functions to choose the language of the page (English or Spanish) -->
+<script type="text/javascript">
+
+function showEnglish() {
+	document.getElementById("spanish-text").style.display = "none";
+	document.getElementById("english-text").style.display = "block";
+}
+
+function showSpanish() {
+	document.getElementById("english-text").style.display = "none";
+	document.getElementById("spanish-text").style.display = "block";
+}
+</script>
+
+<body class="<?php hybrid_body_class(); ?>" onload="showSpanish()">
 
 	<?php do_atomic( 'open_body' ); // origin_open_body ?>
 
 	<div id="social-icons">
-		<img src="wp-content/themes/origin/user-social-icons/twitter-icon.png" width="50" height="50" class="image" /> <br />
-		<img src="wp-content/themes/origin/user-social-icons/facebook-icon.png" width="50" height="50" class="image" /> <br />
+		<img src="wp-content/themes/origin/user-social-icons/twitter-icon.png" width="50" height="50" class="image" /> <br /><br />
+		<img src="wp-content/themes/origin/user-social-icons/facebook-icon.png" width="50" height="50" class="image" /> <br /><br />
 		<img src="wp-content/themes/origin/user-social-icons/google-icon.jpg" width="50" height="50" class="image" />
 	</div>
 
